@@ -1,124 +1,104 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <!-- Bootstrap ICONS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
 
-    <!-- STYLE CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-    <title>AnimesMax</title>
-  </head>
-  <body>
-    <!-- START HEADER -->
-    <header>
-      <!-- START NAV -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"
-            ><img style="width: 150px" src="img/logo.png" alt=""
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon">
-              <div class="icon"><i class="bi bi-list"></i></div
-            ></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Meu Perfil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Calendário</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Catálogo
-                </a>
-                <ul class="dropdown-menu bg-dark">
-                  <p class="dropdowtxt">Animes:</p>
-                  <li><a class="dropdown-item" href="#">Lista de animes</a></li>
-                  <li><a class="dropdown-item" href="#">Dublado</a></li>
-                  <li><a class="dropdown-item" href="#">Legendado</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <p class="dropdowtxt">Filmes:</p>
-                  <li><a class="dropdown-item" href="#">Lista de filmes</a></li>
-                  <li><a class="dropdown-item" href="#">Dublado</a></li>
-                  <li><a class="dropdown-item" href="#">Legendado</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Pedir para adicionar</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true"
-                  >Feito por fãns, como você.</a
-                >
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Pesquisar"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-danger" type="submit">
-                Pesquisar
-              </button>
-            </form>
-          </div>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <!-- Bootstrap ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+  <!-- STYLE CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <title>AnimesMax</title>
+</head>
+
+<body>
+  <!-- START HEADER -->
+  <header>
+    <!-- START NAV -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img style="width: 150px" src="img/logo.png" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <div class="icon"><i class="bi bi-list"></i></div>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Meu Perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Calendário</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Catálogo
+              </a>
+              <ul class="dropdown-menu bg-dark">
+                <p class="dropdowtxt">Animes:</p>
+                <li><a class="dropdown-item" href="#">Lista de animes</a></li>
+                <li><a class="dropdown-item" href="#">Dublado</a></li>
+                <li><a class="dropdown-item" href="#">Legendado</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <p class="dropdowtxt">Filmes:</p>
+                <li><a class="dropdown-item" href="#">Lista de filmes</a></li>
+                <li><a class="dropdown-item" href="#">Dublado</a></li>
+                <li><a class="dropdown-item" href="#">Legendado</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Pedir para adicionar</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Feito por fãns, como você.</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search" />
+            <button class="btn btn-outline-danger" type="submit">
+              Pesquisar
+            </button>
+          </form>
         </div>
-      </nav>
-      <!-- END NAV -->
-    </header>
-    <!-- END HEADER -->
-    <!-- ALERT OR AD AREA -->
-    <div class="alert alert-danger alert-dismissible fade show" role="alert">
-      <strong>Você não está logado!</strong> Crie uma conta gratuitamente agora mesmo e usufrua de todas as funcionalidades.
-      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
-    <!-- START CONTAINER -->
-    <div class="container">
-      <h3>Lançamentos de Hoje</h3>
-
-      <button type="button" class="btn btn-warning">Ver Tudo</button>
-
+      </div>
+    </nav>
+    <!-- END NAV -->
+  </header>
+  <!-- END HEADER -->
+  <!-- ALERT OR AD AREA -->
+  <div class="alert alert-danger alert-dismissible fade show" role="alert">
+    <strong>Você não está logado!</strong> Crie uma conta gratuitamente agora mesmo e usufrua de todas as
+    funcionalidades.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+  <!-- START CONTAINER -->
+  <div class="container">
+    <div class="lancamentos">
       <!-- START LANÇAMENTOS DE HOJE -->
+      <div class="row">
+        <div class="col">
+          <h3>Lançamentos de Hoje
+            <button type="button" class="btn btn-dark">Ver Tudo</button>
+          </h3>
+        </div>
+      </div>
       <div class="row">
         <!-- ANIME 1 -->
         <div class="col">
-            <img class="imagem" src="img/solo_leveling.jpeg" alt="" />
+          <img class="imagem" src="img/solo_leveling.jpeg" alt="" />
           </a>
         </div>
         <!-- ANIME 2 -->
@@ -151,16 +131,106 @@
             <img class="imagem" src="img/jujutso.jpg" alt="" />
           </a>
         </div>
+        <!-- ANIME 7 -->
+        <div class="col">
+          <a href="">
+            <img class="imagem" src="img/shippuden.jpg" alt="" />
+          </a>
+        </div>
+        <!-- ANIME 8 -->
+        <div class="col">
+          <a href="">
+            <img class="imagem" src="img/shippuden.jpg" alt="" />
+          </a>
+        </div>
       </div>
-      <!-- END LANÇAMENTOS DE HOJE -->
     </div>
-    <!-- END CONTAINER -->
-    <!-------- BOOTSTRAP JS --------->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <footer></footer>
-  </body>
+    <!-- END LANÇAMENTOS DE HOJE -->
+    
+    
+  </div>
+  
+  <!-- END CONTAINER -->
+  <!-- START CONTAINER 2 -->
+  <div class="container">
+    <div class="lancamentos">
+      <!-- START LANÇAMENTOS DE HOJE -->
+      <div class="row">
+        <div class="col">
+          <h3>Mais Vistos
+            <button type="button" class="btn btn-dark">Ver Tudo</button>
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <!-- ANIME 1 -->
+        <div class="col">
+          <img class="imagem" src="img/solo_leveling.jpeg" alt="" />
+          </a>
+        </div>
+        <!-- ANIME 2 -->
+        <div class="col">
+          <a href="">
+            <img class="imagem" src="img/shingeki_s4.jpe" alt="" />
+          </a>
+        </div>
+        <!-- ANIME 3 -->
+        <div class="col">
+          <a href="">
+            <img class="imagem" src="img/shippuden.jpg" alt="" />
+          </a>
+        </div>
+        <!-- ANIME 4 -->
+        <div class="col">
+          <a href="">
+            <img class="imagem" src="img/yakusoku.jpe" alt="" />
+          </a>
+        </div>
+        <!-- ANIME 5 -->
+        <div class="col">
+          <a href="">
+            <img class="imagem" src="img/kimetsu.jpeg" alt="" />
+          </a>
+        </div>
+        <!-- ANIME 6 -->
+        <div class="col">
+          <a href="">
+            <img class="imagem" src="img/jujutso.jpg" alt="" />
+          </a>
+        </div>
+        <!-- ANIME 7 -->
+        <div class="col">
+          <a href="">
+            <img class="imagem" src="img/shippuden.jpg" alt="" />
+          </a>
+        </div>
+        <!-- ANIME 8 -->
+        <div class="col">
+          <a href="">
+            <img class="imagem" src="img/shippuden.jpg" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- END LANÇAMENTOS DE HOJE -->
+    
+    
+  </div>
+  
+  <!-- END CONTAINER 2 -->
+
+  <footer class="bg-dark">
+    <p>
+      Desenvolvido por <a href="">Arion Gresser</a> e <a href="">Gustavo Trettin</a>.
+    </p>
+  </footer>
+
+
+  <!-------- BOOTSTRAP JS --------->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <footer></footer>
+</body>
+
 </html>
