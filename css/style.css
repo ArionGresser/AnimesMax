@@ -1,0 +1,67 @@
+/* GENERAL STYLE */
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* BODY STYLES */
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(121, 121, 121);
+  }
+  
+  /* NAV */
+  #logo {
+    margin-left: 50px;
+    padding: 0px;
+  }
+  
+  #logo h1 {
+    float: left;
+  }
+  
+  #logo a {
+    border: 1px solid red;
+    display: block;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .dropdown-item {
+    color: #fd7e14;
+  }
+  
+  .dropdowtxt{
+  
+      margin-left: 15px;
+      color: aliceblue;
+  }
+  
+  .nav-link {
+    color: #fd7e14;
+  }
+  .nav-link:hover {
+      color: #9b4d0d;
+    }
+  
+  .itemcolor {
+    color: #fd7e14;
+  }
+  
+  .navbar i {
+    color: rgb(173, 173, 173);
+  }
+  
+  .navbar-brand {
+    color: rgb(173, 173, 173);
+  }
+  
+  /* IMAGES STYLE */
+  .imagem {
+    width: 200px;
+    height: 280px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    margin: 10px;
+  }
+  
