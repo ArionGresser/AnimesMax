@@ -75,8 +75,8 @@ body {
 
 /* IMAGES STYLE */
 .imagem {
-  width: 200px;
-  height: 280px;
+  width: 150px;
+  height: 220px;
   box-shadow: 10px 10px 20px rgb(0, 0, 0);
   margin: 10px;
 }
