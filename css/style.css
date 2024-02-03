@@ -7,6 +7,9 @@
 
 /* BODY STYLES */
 body {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   font-family: "Poppins", sans-serif;
   background-color: rgb(121, 121, 121);
 }
@@ -63,40 +66,50 @@ body {
 /* CONTENT STYLE */
 
 .container {
+  padding-bottom: 8px;
   margin-bottom: 20px;
   background-color: rgb(63, 61, 61);
 }
 
-.container h3{
+.container h3 {
   margin-top: 20px;
   color: #fd7e14;
 }
 
-
 /* IMAGES STYLE */
 .imagem {
+  position: relative;
+  display: inline-block;
   width: 150px;
   height: 220px;
-  box-shadow: 10px 10px 20px rgb(0, 0, 0);
-  margin: 10px;
+  /* box-shadow: 10px 10px 20px rgb(0, 0, 0); */
+  box-shadow: 0 10px 15px -2px rgb(0, 0, 0);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: 0.8s;
 }
 
+.imagem:hover {
+  transition: 0.8s;
+  transform: scale(1.2, 1.2);
+  box-shadow: 0 10px 15px 2px rgb(0, 0, 0);
+}
 
 /* FOOTER */
 
-footer{
+footer {
   text-align: center;
 }
 
-footer p{
+footer p {
   color: aliceblue;
 }
 
-footer a{
+footer a {
   text-decoration: none;
   color: #fd7e14;
 }
 
-footer a:hover{
+footer a:hover {
   color: #9b4d0d;
 }
